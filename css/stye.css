@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*start global styles*/
+.body {
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+}
+
+p {
+  font-size: 18px;
+  margin: 20px 0px;
+  line-height: 30px;
+  box-shadow: inset;
+  font-weight: 400;
+}
+
+.btn-primary {
+  background-color: #E55473;
+  color: white;
+  padding: 20px 43px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 22px;
+  border: 0;
+}
+
+img {
+  margin-bottom: -5px;
+}
+
+/*end global styles*/
+/*===============
+start herader styles
+================*/
+header {
+  background-color: rgb(58, 58, 58);
+  color: white;
+  padding: 15px;
+}
+header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .content .logo {
+  font-size: 35px;
+}
+header .content .logo .red {
+  color: red;
+}
+header .content .menu ul {
+  display: flex;
+}
+header .content .menu ul li {
+  list-style-type: none;
+}
+header .content .menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  transition: 0.3s all;
+  border-radius: 5px;
+}
+header .content .menu ul li a:hover {
+  background-color: #E55473;
+  color: black;
+}
+
+/*===============
+start hero styles
+================*/
+#hero {
+  background-color: #FCEEF1;
+  padding-top: 50px;
+}
+#hero .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .content .left {
+  padding-bottom: 50px;
+}
+#hero .content .left h1 {
+  font-size: 80px;
+  font-weight: 900;
+}
+#hero .content .left p {
+  max-width: 750px;
+  text-shadow: 4px 5px 4px rgba(85, 76, 76, 0.6);
+}
+#hero .content .right {
+  text-align: right;
+}
+#hero .content .right img {
+  width: 70%;
+}
+
+/*===============
+start featured styles
+================*/
+#featured {
+  padding: 100px 0;
+  text-align: center;
+}
+#featured h2 {
+  font-size: 40px;
+}
+#featured .flowers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#featured .flowers .item .flower-box {
+  background-color: #F2DEE7;
+  border-radius: 50% 50% 0 0;
+  margin-bottom: 20px;
+}
+#featured .flowers .item .flower-box img {
+  padding: 70px 45px 0px 45px;
+}
+#featured .flowers .item h3 {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+/*===============
+start hot deals styles
+================*/
+#hotdeal {
+  padding: 70px 0px;
+  background-color: #FEF6F8;
+}
+#hotdeal .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hotdeal .content .description {
+  text-align: center;
+}
+#hotdeal .content .description h2 {
+  font-size: 40px;
+}
+#hotdeal .content .description h2 .red {
+  color: red;
+  font-size: 42px;
+}
+
+/*===============
+start special items styles
+================*/
+#special-items {
+  padding: 100px 0px;
+}
+#special-items .content {
+  background-color: #F4F4F4;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+#special-items .content .item {
+  padding: 50px;
+}
+#special-items .content .item img {
+  width: 100px;
+}
+
+/*===============
+start instagram styles
+================*/
+#instagram {
+  padding: 70px 0px;
+  text-align: center;
+}
+#instagram h2 {
+  font-size: 40px;
+}
+#instagram .flowers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+#instagram .flowers img {
+  width: 100%;
+}
+
+/*===============
+start contact styles
+================*/
+#contact .content {
+  background-image: url("../images/rectangle 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 50px;
+}
+#contact .content h2 {
+  font-size: 40px;
+  text-align: center;
+}
+#contact .content p {
+  text-align: center;
+}
+#contact .content .form form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 650px;
+  margin: auto;
+}
+#contact .content .form form input {
+  width: 100%;
+  padding: 25px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 0;
+}
+
+/*===============
+start footer styles
+================*/
+footer {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 50px 0px;
+}
+footer h2 {
+  font-size: 48px;
+}
+footer h2 .red {
+  color: red;
+}
+footer .copyright {
+  font-size: 12px;
+}
+
